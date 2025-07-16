@@ -9,7 +9,7 @@ export default function Stats() {
   return (
     <Box
       sx={{
-        background: 'linear-gradient(to right, #fbc2eb, #a6c1ee)',
+        background: 'linear-gradient(to right, #1c1c1c, #2e2e2e)',
         minHeight: '100vh',
         display: 'flex',
         alignItems: 'center',
@@ -24,14 +24,14 @@ export default function Stats() {
           width: '100%',
           padding: 4,
           borderRadius: 4,
-          backgroundColor: 'rgba(255, 255, 255, 0.9)',
+          backgroundColor: '#990000',
         }}
       >
         <Box textAlign="center" mb={3}>
-          <Typography variant="h4" fontWeight="bold" color="secondary">
-            📊 Track Short URL Stats
+          <Typography variant="h4" fontWeight="bold" color="white">
+            Track Short URL Stats
           </Typography>
-          <Typography variant="subtitle2" color="text.secondary">
+          <Typography variant="subtitle2" color="lightgrey">
             View clicks, referrers and more!
           </Typography>
         </Box>
@@ -41,13 +41,26 @@ export default function Stats() {
           fullWidth
           value={code}
           onChange={e => setCode(e.target.value)}
-          sx={{ mb: 2 }}
+          sx={{
+            mb: 2,
+            input: { color: 'white' },
+            label: { color: 'white' },
+          }}
         />
 
         <Button
           variant="contained"
           fullWidth
           onClick={() => setSubmitted(true)}
+          sx={{
+            backgroundColor: '#2c2c2c',
+            color: '#fff',
+            fontWeight: 'bold',
+            '&:hover': {
+              backgroundColor: 'red',
+            },
+            mb: 2,
+          }}
         >
           Show Analytics
         </Button>

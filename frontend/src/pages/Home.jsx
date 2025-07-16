@@ -8,7 +8,8 @@ export default function Home() {
   return (
     <Box
       sx={{
-        background: 'linear-gradient(to right, #d3cce3, #e9e4f0)',
+        // background: 'linear-gradient(to right, #d3cce3, #e9e4f0)',
+        backgroundColor: '#2c2c2c',
         minHeight: '100vh',
         display: 'flex',
         alignItems: 'center',
@@ -23,15 +24,16 @@ export default function Home() {
           width: '100%',
           padding: 4,
           borderRadius: 4,
-          backdropFilter: 'blur(10px)',
-          backgroundColor: 'rgba(255, 255, 255, 0.8)',
+          backgroundColor: '#990000',
+        //   backdropFilter: 'blur(10px)',
+        //   backgroundColor: 'rgba(255, 255, 255, 0.8)',
         }}
       >
         <Box textAlign="center" mb={3}>
-          <Typography variant="h4" fontWeight="bold" color="primary">
-            ✂️ Shrink Your Links
+          <Typography variant="h4" fontWeight="bold" color="#ffffff">
+             Shrink Your Links
           </Typography>
-          <Typography variant="subtitle2" color="text.secondary">
+          <Typography variant="subtitle2" sx={{ color: '#fceeee' }}>
             Create beautiful, trackable short URLs
           </Typography>
         </Box>
