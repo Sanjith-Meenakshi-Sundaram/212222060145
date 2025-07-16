@@ -35,3 +35,8 @@ This is a full-stack **URL Shortener** web application built as part of the Affo
 | Routing   | React Router DOM               |
 
 ---
+### Screenshots
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ad5dcd6e-f9dc-4f36-b93f-4bf61df3b6a0" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9baeb7e9-1700-41e3-a248-830176da9ddb" />
+
+
